@@ -5,7 +5,7 @@ var app = express();
 var PORT = process.env.PORT || 3000;
 
 app.get('/', function (req, res) {
-	res.send('Todo API');
+	res.send('Hey Coop-A-Loop!!');
 });
 
 app.listen(PORT, function () {
